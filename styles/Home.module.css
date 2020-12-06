@@ -40,6 +40,14 @@
   text-decoration: none;
 }
 
+.subtitle {
+  text-align: center;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  color: #0070f3;
+}
+
 .title a:hover,
 .title a:focus,
 .title a:active {
@@ -49,7 +57,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
@@ -58,8 +66,8 @@
 }
 
 .description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+  line-height: 0.5;
+  font-size: 1rem;
 }
 
 .code {
@@ -75,9 +83,33 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.label {
+  margin-right: 15px;
+}
+
+.input {
+  margin-bottom: 15px;
+  margin-right: 15px;
+  max-width: 150px;
+}
+
+.button {
+  width: auto;
+  height: 30px;
+  background-color: #0070f3;
+  color: #ffffff;
+  font-size:0.8rem;
+  margin-bottom: 15px;
+}
+
+.steptitle {
+  color: #0070f3;
 }
 
 .card {
