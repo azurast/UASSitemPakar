@@ -112,6 +112,10 @@
   color: #0070f3;
 }
 
+.subsubtitle {
+  font-weight: bold;
+}
+
 .card {
   margin: 1rem;
   flex-basis: 45%;

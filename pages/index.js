@@ -179,35 +179,35 @@ const Home = () => {
         </form>
         <div>
           <h3 className={styles.steptitle}>Input From User</h3>
-          <label>New Normal Criteria Values</label>
+          <label className={styles.subsubtitle}>New Normal Criteria Values</label>
           <p>{newNormalCriteria.toString()}</p>
-          <label>Visitors Post Criteria Values</label>
+          <label className={styles.subsubtitle}>Visitors Post Criteria Values</label>
           <p>{visitorsPostCriteria.toString()}</p>
-          <label>Interaction Level Criteria Values</label>
+          <label className={styles.subsubtitle}>Interaction Level Criteria Values</label>
           <p>{interactionLevelCriteria.toString()}</p>
-          <label>Operational Hours Criteria Values</label>
+          <label className={styles.subsubtitle}>Operational Hours Criteria Values</label>
           <p>{operationalHoursCriteria.toString()}</p>
           <button className={styles.button} onClick={normalize}>Normalize</button>
 
           <h3 className={styles.steptitle}>Normalized Input</h3>
-          <label>Normalized New Normal Criteria Values</label>
+          <label className={styles.subsubtitle}>Normalized New Normal Criteria Values</label>
           <p>{normalizedNewNormal.toString()}</p>
-          <label>Normalized Visitors Post Criteria Values</label>
+          <label className={styles.subsubtitle}>Normalized Visitors Post Criteria Values</label>
           <p>{normalizedVisitorsPost.toString()}</p>
-          <label>Normalized Interaction Level Criteria Values</label>
+          <label className={styles.subsubtitle}>Normalized Interaction Level Criteria Values</label>
           <p>{normalizedInteractionLevel.toString()}</p>
-          <label>Normalized Operational Hours Criteria Values</label>
+          <label className={styles.subsubtitle}>Normalized Operational Hours Criteria Values</label>
           <p>{normalizedOperationalHours.toString()}</p>
           <button className={styles.button} onClick={multiply}>Multiply</button>
 
           <h3 className={styles.steptitle}>Multiplied Input by Weight</h3>
-          <label>Multiplied New Normal Criteria Values</label>
+          <label className={styles.subsubtitle}>Multiplied New Normal Criteria Values</label>
           <p>{multipliedNewNormal.toString()}</p>
-          <label>Multiplied Visitors Post Criteria Values</label>
+          <label className={styles.subsubtitle}>Multiplied Visitors Post Criteria Values</label>
           <p>{multipliedVisitorsPost.toString()}</p>
-          <label>Multiplied New Interaction Level Criteria Values</label>
+          <label className={styles.subsubtitle}>Multiplied New Interaction Level Criteria Values</label>
           <p>{multipliedInteractionLevel.toString()}</p>
-          <label>Multiplied Operational Hours Criteria Values</label>
+          <label className={styles.subsubtitle}>Multiplied Operational Hours Criteria Values</label>
           <p>{multipliedOperationalHours.toString()}</p>
           <button className={styles.button} onClick={riskLevel}>Show Risk Levels</button>
 
