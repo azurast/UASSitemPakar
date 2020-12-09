@@ -15,10 +15,10 @@ const Home = () => {
   const [interactionLevelCriteria, setInteractionLevelCriteria] = useState([]);
   const [operationalHoursCriteria, setOperationalHoursCriteria]= useState([]);
 
-  const newNormalWeight = 0.30;
-  const visitorsPostWeight = 0.15;
-  const interactionLevelWeight = 0.40;
-  const operationalHoursWeight = 0.15;
+  const newNormalWeight = 0.318;
+  const visitorsPostWeight = 0.055;
+  const interactionLevelWeight = 0.634;
+  const operationalHoursWeight = 0.093;
 
   const [normalizedNewNormal, setNormalizedNewNormal] = useState([]);
   const [normalizedVisitorsPost, setNormalizedVisitorsPost] = useState([]);
